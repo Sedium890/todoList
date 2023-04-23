@@ -1,0 +1,65 @@
+/* Styling for the task list container */
+.task-list {
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the task items */
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Styling for the task text */
+.task-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Styling for the delete button */
+.delete-btn {
+  background-color: #fff;
+  color: red;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+/* Styling for the add task form */
+.add-task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+/* Styling for the task input */
+.task-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+/* Styling for the add button */
+.add-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for completed tasks */
+.completed-task {
+  text-decoration: line-through;
+}
